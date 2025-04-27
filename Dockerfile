@@ -30,7 +30,7 @@ RUN ln -s /usr/bin/python3.10 /usr/bin/python
 WORKDIR /app
 
 # Get latest stable-diffusion-webui release
-#RUN git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git /app
+#RUN git clone https://github.com/SonycProduction/stable-diffusion-webui.git /app
 
 # Modify the webui-user.sh file to add COMMANDLINE_ARGS
 RUN sed -i 's|#export COMMANDLINE_ARGS=""|export COMMANDLINE_ARGS="--listen --api --medvram --xformers --enable-insecure-extension-access --allow-code --administrator"|' /app/webui-user.sh
