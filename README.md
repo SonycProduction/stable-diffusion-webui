@@ -97,6 +97,10 @@ sudo docker run --rm --runtime=nvidia --gpus all nvidia/cuda:12.6.0-base-ubuntu2
 ```
 git clone https://github.com/SonycProduction/stable-diffusion-webui.git
 ```
+### Navigate into the cloned directory
+```
+cd stable-diffusion-webui
+```
 ### Option 1 (Build and deploy in a single command - Recommended)
 #### Build and deploy the container in a single command. WebUI is available on port `7860`. Required folders are mapped in current location.
 ```
