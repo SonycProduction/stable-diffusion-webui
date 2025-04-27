@@ -134,3 +134,5 @@ sudo docker run -d \
 ```
 `<image_name:tag>` needs to be replaced the one defined in previous step.
 This wil start the container and map the required volumes as folders in current location.
+
+#### It’s done 🎊🎉👏 Go to browser, and type 127.0.0.1:7860 to access WebUI.
