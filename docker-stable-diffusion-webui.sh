@@ -4,7 +4,7 @@
 sudo -v
 
 # Clone the repository
-git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+git clone https://github.com/SonycProduction/stable-diffusion-webui.git
 
 # Navigate into the cloned directory
 cd stable-diffusion-webui
